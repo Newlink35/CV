@@ -13,12 +13,41 @@ H2{
  font-size: 2REM;
 }
 
+.skills{
+width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2
+}
+
+.seos{
+  width: 25%;
+  float: right;
+  padding-right: 1px
+
+}
+a{
+  margin  :1PX 40PX;
+  color: #835200;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
 
 
 
 
 .bottom-cloud{
   position: absolute;
+
+}
+.bottom-container{
+  background-color: #6fff6f;
+  padding: 50px 0px 7PX   ;
+  margin-top: 70PX;
+
 
 }
 
@@ -29,6 +58,13 @@ h1 {
   font-family: monospace ;
   color: #66BFBF;
 }
+
+
+.COPYRIGHT{
+  padding-top: 30PX;
+}
+
+
 
 h2
 {
@@ -52,6 +88,30 @@ h2
   text-decoration: underline;
 }
 
+
+  )
+
 .photssss{
-  padding-top: 10px;
+margin-top: : 20px;
+}
+
+.btn {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background-color:#5cbf2a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
 }
